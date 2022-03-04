@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+:root {
+  --primary-bg-color: #fef6e4;
+  --secondary-bg-color: #f3d2c1;
+  --tertiary-bg-color: #8bd3dd;
+  --paragraph-color: #172c66;
+  --button-secondary-color: #f582ae;
+  --text-color: #001858;
+  --font-family: "Inter", monospace;
+  --font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--primary-bg-color);
+  color: var(--paragraph-color);
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  margin: 0;
+  padding: 0;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--headline-color);
+}
+
+button {
+  background-color: var(--secondary-bg-color);
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+input,
+textarea {
+  background-color: var(--secondary-bg-color);
+}
+
+/* Calculator */
+
+main {
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 30vw;
+  height: auto;
+  background-color: var(--secondary-bg-color);
+}
+
+.screen {
+  background-color: var(--tertiary-bg-color);
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 5rem;
+  padding: 1rem;
+  flex: 1;
+  overflow-x: auto;
+}
+
+.buttons-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  flex: 1 25%;
+}
+
+.button-secondary {
+  background-color: var(--button-secondary-color);
+}
+
+/* .btn-cancel {
+  grid-area: cancel;
+}
+.btn-neg-pos {
+  grid-area: pos-neg;
+}
+.btn-percent {
+  grid-area: percent;
+}
+.btn-division {
+  grid-area: divison;
+}
+
+.btn-zero {
+  grid-area: zero;
+}
+
+.btn-dot {
+  grid-area: dot;
+}
+
+.btn-equal {
+  grid-area: equal;
+} */
