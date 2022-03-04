@@ -4,7 +4,7 @@ A demo calculator app using React.js.
 ## 📦 Get Started
 Clone the repo
 ```
-git@github.com:darwinphi/react-calculator.git
+git clone git@github.com:darwinphi/react-calculator.git
 ```
 Install dependencies
 ```
@@ -14,4 +14,4 @@ Start the app...
 ```
 npm run dev
 ```
-...Then check http://localhost:3000
+...Then open http://localhost:3000
