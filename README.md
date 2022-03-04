@@ -1,7 +1,7 @@
 # 🧮 React Calculator
-A demo calculator app using React.js
+A demo calculator app using React.js.
 
-# 📦 Get Started
+## 📦 Get Started
 Clone the repo
 ```
 git@github.com:darwinphi/react-calculator.git
