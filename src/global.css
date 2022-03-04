@@ -67,9 +67,21 @@ main {
 }
 
 .container {
-  width: 30vw;
+  width: 100vw;
   height: auto;
   background-color: var(--secondary-bg-color);
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 40vw;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    width: 20vw;
+  }
 }
 
 .screen {
@@ -99,28 +111,3 @@ main {
 .button-secondary {
   background-color: var(--button-secondary-color);
 }
-
-/* .btn-cancel {
-  grid-area: cancel;
-}
-.btn-neg-pos {
-  grid-area: pos-neg;
-}
-.btn-percent {
-  grid-area: percent;
-}
-.btn-division {
-  grid-area: divison;
-}
-
-.btn-zero {
-  grid-area: zero;
-}
-
-.btn-dot {
-  grid-area: dot;
-}
-
-.btn-equal {
-  grid-area: equal;
-} */
